@@ -63,6 +63,7 @@ li {
 .logo {
 
     font-size: 32px;
+    cursor: pointer;
 
 }
 
@@ -1249,6 +1250,15 @@ p {
         height: 100px;
     }
 
+    video{
+        width: 290px !important;
+        height: 150px !important;
+    }
+
+    .swal2-popup{
+        max-height: 20em !important;
+    }
+
 
 }
 
@@ -1294,6 +1304,15 @@ p {
 
     .info-about {
         margin-top: 0;
+    }
+
+    video{
+        width: 290px !important;
+        height: 150px !important;
+    }
+
+    .swal2-popup{
+        max-height: 20em !important;
     }
 
 
@@ -1876,5 +1895,12 @@ svg:hover #lineOne {
 svg:hover #lineTwo {
     transform: rotate(-450deg);
     transform-origin: 50% 50%;
+}
+
+/* VIDEO */
+
+.swal2-popup{
+    width: 52em !important;
+    height: 45em !important;
 }
 
