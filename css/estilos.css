@@ -22,6 +22,14 @@ li {
 
 }
 
+.map-part p{
+    color: white !important;
+}
+
+.mob-text p{
+    color: white !important;
+}
+
 /* NAVBAR STYLING STARTS */
 
 .navbar {
@@ -58,6 +66,7 @@ li {
 
 }
 
+
 /* LOGO */
 
 .logo {
@@ -91,6 +100,11 @@ li {
     padding: 5px 14px;
 }
 
+
+
+.container-block p{
+    color: black !important;
+}
 
 /* MENU MENU */
 
@@ -276,7 +290,7 @@ p {
 }
 
 #Opcion2 {
-    background-color: black;
+    background-color: #117964;
     height: 1000px;
     width: 100%;
     display: flex;
@@ -312,6 +326,7 @@ h2 {
 
 .contact_us_6 .responsive-cell-block {
     min-height: 75px;
+    
 }
 
 .contact_us_6 input:focus,
@@ -435,10 +450,10 @@ h2 {
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: #eeeeee;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    border-left-color: #eeeeee;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
@@ -463,10 +478,10 @@ h2 {
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: #eeeeee;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    border-left-color: #eeeeee;
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #000000;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
@@ -510,7 +525,7 @@ h2 {
     margin-top: 0px;
     margin-right: 48px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: -20s0px;
 }
 
 .contact_us_6 .text-blk.input-title {
@@ -638,6 +653,7 @@ h2 {
     .contact_us_6 .map-box {
         max-width: 100%;
         width: 100%;
+        
     }
 
     .contact_us_6 .responsive-container-block.container {
@@ -1225,7 +1241,7 @@ p {
     }
 
     #Opcion2 {
-        height: 2400px;
+        height: 2500px;
         display: flex;
         justify-content: center;
     }
@@ -1265,6 +1281,13 @@ p {
 
 
 @media (max-width: 415px) {
+
+    .contact_us_6 .subtitle{
+        margin-top: 50px !important;
+        color: white !important;
+        font-size: 35px !important;
+    }
+
     .food-img img {
         width: 100px;
         height: 100px;
@@ -1299,7 +1322,7 @@ p {
     }
 
     #Opcion2 {
-        height: 2500px;
+        height: 2600px;
     }
 
     .info-about {
@@ -1314,6 +1337,21 @@ p {
     .swal2-popup{
         max-height: 20em !important;
     }
+
+    .responsive-container-block{
+        display: block;
+        justify-content: center;
+    }
+
+    .map-box{
+        margin-bottom: 50px !important;
+    }
+
+    .container-block{
+        margin-top: 50px !important;
+    }
+    
+    
 
 
 }
@@ -1904,3 +1942,6 @@ svg:hover #lineTwo {
     height: 45em !important;
 }
 
+.submit-btn{
+    cursor: pointer;
+}
