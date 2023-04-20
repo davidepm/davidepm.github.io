@@ -42,7 +42,9 @@ li {
 
     justify-content: space-between;
 
-    padding: 20px;
+    padding-left: 10px;
+
+    padding-right: 10px;
 
     background-color: whitesmoke;
 
@@ -152,7 +154,7 @@ input[type=checkbox] {
 
 /* APPLYING MEDIA QUERIES */
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 
     .menu {
         display: flex !important;
@@ -160,7 +162,7 @@ input[type=checkbox] {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
     .menu {
 
@@ -686,6 +688,10 @@ h2 {
         margin-right: 60px;
         margin-bottom: 40px;
         margin-left: 0px;
+    }
+
+     .responsive-container-block{
+        width: 300px;
     }
 
     .contact_us_6 .link-img {
@@ -1289,6 +1295,7 @@ p {
     }
 
     .food-img img {
+        margin-top: 100px;
         width: 100px;
         height: 100px;
     }
@@ -1356,8 +1363,6 @@ p {
 
 }
 
-
-
 @media (max-width: 361px) {
     .food-img img {
         width: 90px;
@@ -1419,6 +1424,7 @@ p {
     .info-about p {
         text-align: center;
     }
+
 }
 
 @media (max-width: 658px) {

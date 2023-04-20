@@ -669,10 +669,10 @@
 
 
         $(document).on('click', '#checkbox_toggle', function () {
-            //console.log(window.innerWidth);
-            if (window.innerWidth < 768) {
+            console.log(window.innerWidth);
+            if (window.innerWidth < 769) {
                 cb = document.querySelector('#checkbox_toggle');
-                //console.log(document.getElementById('menu').style.display);
+                console.log(document.getElementById('menu').style.display);
                 if (document.getElementById('menu').style.display != "block") {
                     document.getElementById('menu').style.display = "block";
                 } else {
