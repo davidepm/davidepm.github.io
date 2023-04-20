@@ -1287,6 +1287,11 @@ p {
 
 
 }
+@media (min-width: 1024px) {
+    .subtitle{
+        opacity: 0;
+    }
+}
 
 
 
