@@ -170,7 +170,7 @@ input[type=checkbox] {
 
         position: absolute;
 
-        background-color: teal;
+        background-color: rgb(81, 152, 152);
 
         right: 0;
 
@@ -179,6 +179,8 @@ input[type=checkbox] {
         text-align: center;
 
         padding: 16px 0;
+
+        opacity: 1;
 
     }
 
@@ -281,7 +283,7 @@ html {
 }
 
 #Contacto {
-    background-color: rgb(73, 71, 71);
+    background-color: black;
     margin-top: 25px;
 }
 
@@ -296,7 +298,7 @@ p {
 }
 
 #Opcion2 {
-    background-color: #117964;
+    background-color: black;
     height: 1000px;
     width: 100%;
     display: flex;
