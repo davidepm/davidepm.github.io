@@ -22,11 +22,11 @@ li {
 
 }
 
-.map-part p{
+.map-part p {
     color: white !important;
 }
 
-.mob-text p{
+.mob-text p {
     color: white !important;
 }
 
@@ -104,7 +104,7 @@ li {
 
 
 
-.container-block p{
+.container-block p {
     color: black !important;
 }
 
@@ -280,6 +280,10 @@ html {
     width: 100%;
 }
 
+#Contacto {
+    background-color: rgb(73, 71, 71);
+    margin-top: 25px;
+}
 
 #Opcion1 {
     background-color: black;
@@ -328,7 +332,7 @@ h2 {
 
 .contact_us_6 .responsive-cell-block {
     min-height: 75px;
-    
+
 }
 
 .contact_us_6 input:focus,
@@ -655,7 +659,7 @@ h2 {
     .contact_us_6 .map-box {
         max-width: 100%;
         width: 100%;
-        
+
     }
 
     .contact_us_6 .responsive-container-block.container {
@@ -690,7 +694,7 @@ h2 {
         margin-left: 0px;
     }
 
-     .responsive-container-block{
+    .responsive-container-block {
         width: 300px;
     }
 
@@ -1267,17 +1271,17 @@ p {
         margin-top: 0;
     }
 
-    #play{
+    #play {
         width: 100px;
         height: 100px;
     }
 
-    video{
+    video {
         width: 290px !important;
         height: 150px !important;
     }
 
-    .swal2-popup{
+    .swal2-popup {
         max-height: 20em !important;
     }
 
@@ -1288,7 +1292,7 @@ p {
 
 @media (max-width: 415px) {
 
-    .contact_us_6 .subtitle{
+    .contact_us_6 .subtitle {
         margin-top: 50px !important;
         color: white !important;
         font-size: 35px !important;
@@ -1336,29 +1340,29 @@ p {
         margin-top: 0;
     }
 
-    video{
+    video {
         width: 290px !important;
         height: 150px !important;
     }
 
-    .swal2-popup{
+    .swal2-popup {
         max-height: 20em !important;
     }
 
-    .responsive-container-block{
+    .responsive-container-block {
         display: block;
         justify-content: center;
     }
 
-    .map-box{
+    .map-box {
         margin-bottom: 50px !important;
     }
 
-    .container-block{
+    .container-block {
         margin-top: 50px !important;
     }
-    
-    
+
+
 
 
 }
@@ -1383,6 +1387,26 @@ p {
 
     #Opcion2 {
         height: 2400px;
+    }
+
+}
+
+@media (max-width: 821px) {
+
+    .subtitle{
+        margin-top: 35px !important;
+        font-size: 45px !important;
+        color: white !important;
+    }
+
+    .subtitle2{
+        margin-top: 35px !important;
+        font-size: 25px !important;
+        color: white !important;
+    }
+
+    .map-part{
+        margin-bottom: 25px !important;
     }
 
 }
@@ -1943,11 +1967,11 @@ svg:hover #lineTwo {
 
 /* VIDEO */
 
-.swal2-popup{
+.swal2-popup {
     width: 52em !important;
     height: 45em !important;
 }
 
-.submit-btn{
+.submit-btn {
     cursor: pointer;
 }
